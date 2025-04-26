@@ -1,0 +1,13 @@
+.App {
+    padding: 20px;
+  }
+  
+  .App.light {
+    background-color: white;
+    color: black;
+  }
+  
+  .App.dark {
+    background-color: black;
+    color: white;
+  }

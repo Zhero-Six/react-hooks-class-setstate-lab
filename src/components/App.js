@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import ShoppingList from "./ShoppingList";
 import itemData from "../data/items";
-import "./App.css"; // Assuming CSS is required for .App, .light, .dark classes
+import "./App.css"; // This import is causing the error if App.css is missing
 
 class App extends Component {
   constructor(props) {
